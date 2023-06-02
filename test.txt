@@ -1,0 +1,107 @@
+Explain javac and java
+- javac: javac is command which is used to compile the program and it will convert source code to byte code
+  java: java is command which is used to run the program and it will convert byte code to machine code
+
+2. Explain JDK,JRE,JVM
+- JDK-Java Development Kit. JDK is combination of JRE and development tools. development tools are doc, javac etc
+  JRE-Java Run time Environment. JRE is combination of JVM and set of libraries
+  JVM-Java Virtual Machine. JVM is having 4 components
+      1.byte code load
+      2.verifie byte code
+      3.interpreter
+      4.provide runtime environment
+ JDK is minimum requirement to compile program
+ JRE is minimum requirement to run the java program with the help of JVM
+JDK,JRE,JVE all are platform dependent
+JDK,JRE are physically exist but JVM is not physically exit
+
+3.List the limitation of array
+- similar type of data are used
+  provide size of array
+
+4.Explain class,object and signature of class
+- class: It is the template which is having states and behaviours of class
+  object: Instance of class
+  main purpose of class is to create multiple copies of class
+  Signature: Class referenceVariable=new Class();
+
+
+5.Difference between .java file and .class file
+       .java file                  .class file
+1. It is the source code          1. It is the byte code
+2.These files given to javac to   2.these files are given to java to 
+  compile                           run
+
+6.Explain method signature
+ Signature: access modifier returntypes methodName(parameters){
+//block of statements
+}
+access modifier:public static
+return types:void,boolean, string etc
+methodName:name given to method as per users requirement with or without parameters
+
+7.What is java
+- java is high level object oriented programming language
+
+8.What is java IDE
+- It is the tool which is used to write or edit the java program
+
+9.What is variable and explain it's types
+-Variable: Variable is the container which is used to store the data or value
+ There are 4 types
+ local static instance parameter
+local-these variables declare inside method and class
+static-these variables declare outside method but inside class
+instance-these are same as static but without static keyword
+parameter-these are used in method
+
+10.list the java keywords
+public, static, void, int,boolean,long,double,char,short,float,this,import,super
+
+11.what is class variables
+ class variables are the static and instance variables which are declare inside class but outside method
+
+12.What is datatypes and types
+- datatype is the representation of variables
+there are 2 types primitive and non primitive
+there are 8 primitive data types
+there are 2 non primitive data types
+
+13.what is dot operator
+- dot operators are used to invoke parameters
+
+14.list the java features
+-It is simple
+ It is secured
+ It is platform Independent
+ It is open source
+
+15. what is the base class of all the class
+-main class
+
+16. what is method overloadind with example
+ method overloading is the process in which class having multiple methods having same name but different in parameters
+
+example
+Class Addition{
+
+public static void main( String a[]){
+add(4,5);
+add(10,3,7);
+}
+
+public static void add(int a,int b){
+int addition=a+b;
+System.out.println("addition of numbers "+ addition);
+
+}
+
+public static void add(int s,int h, int j){
+int addition1=s+h+j;
+System.out.println("addition of numbers "+ addition1);
+}
+}
+
+ 
+ 
+ 
